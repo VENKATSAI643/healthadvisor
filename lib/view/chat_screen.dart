@@ -30,7 +30,7 @@ class _ChatScreenState extends State<ChatScreen> {
     inputQuestionController = TextEditingController();
     scrollController = ScrollController();
     chatGpt =
-        ChatGpt(apiKey: "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");
+        ChatGpt(apiKey: "api-key");
     super.initState();
   }
 
